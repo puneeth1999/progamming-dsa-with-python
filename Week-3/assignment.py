@@ -41,6 +41,5 @@ def transpose(m):
 		for j in range(len(m[i])):
 			new_m[j][i] = m[i][j]
 	return new_m
-	# return new_m
 print(transpose([[1,2,3],[4,5,6]]))
 print(transpose([[1],[2],[3]]))
