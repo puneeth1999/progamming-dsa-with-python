@@ -18,8 +18,6 @@ print(expanding([1,-1]))
 print(expanding([1,2,2]))
 
 
-
-
 # Sum Square
 def sumsquare(l):
 	even_sqr = 0; odd_sqr = 0;
@@ -35,3 +33,14 @@ print(sumsquare([1,3,5])) 		# Expected Output: [35, 0]
 print(sumsquare([2,4,6])) 		# Expected Output: [0, 56]
 print(sumsquare([-1,-2,3,7])) 	# Expected Output: [59, 4]
 
+
+# Transpose of the matrix
+def transpose(m):
+	new_m = [[0 for k in range(len(m))] for i in range(len(m[0]))]
+	for i in range(len(m)):
+		for j in range(len(m[i])):
+			new_m[j][i] = m[i][j]
+	return new_m
+	# return new_m
+print(transpose([[1,2,3],[4,5,6]]))
+print(transpose([[1],[2],[3]]))
