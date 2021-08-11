@@ -9,7 +9,7 @@ Notes on SELECTION SORT:
 	=> Now, swap the minimum value with the current position
 => Return the list.
 
-Time Complexity	: O(N) where N is the size of the input
+Time Complexity	: O(N^2) where N is the size of the input
 Space Complexity: O(1) since, it does not take up any extra space
 '''
 
@@ -27,3 +27,4 @@ def selectionSort(l):
 
 if __name__ == "__main__":
 	print(selectionSort([7,6,4,5,9,2,0,1]))
+

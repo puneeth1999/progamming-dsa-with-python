@@ -3,7 +3,7 @@ Notes on INSERTION SORT:
 
 The code is pretty self-explanatory
 
-Time Complexity  = O(N)
+Time Complexity  = O(N^2)
 Space Complexity = O(1)
 '''
 
